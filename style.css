@@ -10,3 +10,14 @@ h4{
     background-color: rgb(199, 9, 9);
     color: cornsilk;
 }
+span#red{
+    color: darkred;
+    background-color: white;
+}
+span#green{
+    background-color: #fff;
+    color: green;
+}
+p#new{
+    background-color: rgb(124, 78, 170);
+}
