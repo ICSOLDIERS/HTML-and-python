@@ -17,7 +17,7 @@
 
   <table border="1">
     <tr>
-      <td>row1 column1</td>
+      <th>row1 column1</th>
       <td>row1 column2</td>
     </tr>
     <tr>
@@ -30,14 +30,18 @@
   <!-- TABLE HEADING -->
   <!-- CAN BE DEFINED USING TH -->
   <table border="1">
-    <tr>
-      <th>number</th>
-      <th>course</th>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td>PYTHON</td>
-    </tr>
+    <thead>
+      <tr>
+        <th>number</th>
+        <th>course</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>PYTHON</td>
+      </tr>
+    </tbody>
     <tr>
       <td>2</td>
       <td>HTML</td </tr>
@@ -69,9 +73,11 @@
   <h2>colspan and rowspan</h2>
   <!-- COLSPAN AND ROWSPAN -->
   <table border="10">
-    <th>column1</th>
-    <th>column2</th>
-    <th>column3</th>
+    <tr>
+      <th>column1</th>
+      <th>column2</th>
+      <th>column3</th>
+    </tr>
     <tr>
       <td rowspan="2">row1cell1</td>
       <td>row1 cell2</td>
@@ -109,9 +115,11 @@
   <!-- TABLE HEIGHT AND WIDTH -->
   <h2>TABLE GEIGHT AND WIDTH</h2>
   <table border="5" bgcolor="yellow" bordercolor="red" height="40%" width="60%" align="center">
-    <th>column1</th>
-    <th>column2</th>
-    <th>column3</th>
+    <tr>
+      <th>column1</th>
+      <th>column2</th>
+      <th>column3</th>
+    <tr>
 
     <tr>
       <td rowspan="2">row1 cell1</td>
@@ -128,9 +136,11 @@
   <H2>this is the table caption examples</H2>
   <table border="5" bgcolor="yellow" bordercolor="red" height="40%" width="60%" align="center">
     <caption>this the html tutorial</caption>
-    <th>column1</th>
-    <th>column2</th>
-    <th>column3</th>
+    <tr>
+      <th>column1</th>
+      <th>column2</th>
+      <th>column3</th>
+    </tr>
 
     <tr>
       <td rowspan="2">row1 cell1</td>
